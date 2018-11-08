@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="logo"><img src="../common/img/logo.png" width="98" height="27"><img src="../common/img/text.png" width="203" height="21"></div>
+        <div class="logo"><img src="../common/img/logo.png" width="170" ><img src="../common/img/text.png" width="203" height="21"></div>
         <div class="handle">
             <!--<Button size="small" @click="CarouselImg = true">切换设备</Button>-->
             <Button size="small" @click="loginOut">登出</Button>
