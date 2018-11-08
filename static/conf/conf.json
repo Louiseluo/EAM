@@ -1,0 +1,6 @@
+{
+  "dev": true,
+  "httpUrl": "http://localhost:8888",
+  "imgUploadUrl": "192.168.40.27",
+  "imgUploadPort": 8822
+}

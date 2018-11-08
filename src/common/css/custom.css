@@ -1,0 +1,587 @@
+/**
+ * Created by KangPing on 2017/11/02.
+ */
+/*公共样式：*/
+.selectedPerson_dis {
+    margin-right: 20%
+}
+
+.personRevierDet {
+    float: right;
+    margin-right: 8%;
+}
+
+.tabDesign .theTab {
+    background: #ffffff !important;
+}
+
+.ivu-input-number-input[disabled] {
+    color: #1c2438;
+}
+
+.necessary:before {
+    content: '*';
+    vertical-align: middle;
+    /*height: 15px;*/
+    /*width: 15px;*/
+    /*margin-right: 5px;*/
+    color: red;
+}
+.colorRed{
+    color:red;
+}
+.timePicker .ivu-date-picker-rel{
+    display:inline-flex;
+    margin-left:10px;
+}
+/*删除确认框提示：*/
+.ivu-table-auto table {
+    table-layout: fixed;
+    width: 100% !important;
+}
+
+.iview_tabDis {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.iview_tab_numDis {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.nowrap {
+    white-space: nowrap
+}
+
+.detMod .detMod_p {
+    color: #f60;
+    text-align: center;
+}
+
+.deleteTab {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 120px;
+    margin-top: 10px
+}
+
+.personListDiv {
+    border: 1px solid #d3d3d4;
+    padding-left: 1%;
+    padding-right: 1%;
+    min-height: 40px
+}
+
+.radio_item {
+    margin-bottom: 1%;
+    /*padding: 1%;*/
+    padding-top: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+.titleListManage {
+    border-bottom: 1px solid #dddee1;
+    margin-bottom: 26px;
+}
+
+.system .ivu-select-dropdown {
+    max-height: 150px !important;
+}
+
+.tabUL {
+    margin-bottom: -1px;
+    line-height: 1.5;
+    font-size: 14px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+}
+
+.tabUL li {
+    padding-left: 0;
+    margin: 0;
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    transition: transform .5s ease-in-out;
+
+}
+
+.tabUL li a {
+    color: #495060;
+    display: inline-block;
+    height: 100%;
+    padding: 8px 16px;
+    margin-right: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    border-bottom: 2px solid transparent;
+    transition: color .3s ease-in-out;
+}
+
+.tabUL li.active a {
+    color: #2d8cf0;
+    border-color: #2d8cf0;
+}
+
+.taDisplay .trDisplay .tdDisplay {
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.taDisplay {
+    table-layout: fixed;
+}
+
+.taDisplay .trDisplay .tdDisplay {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.taDisplay .trDisplay .tdDisplay_right {
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pointDis {
+    cursor: pointer;
+}
+
+.mar-bot-1percent {
+    margin-bottom: 1%;
+}
+
+.mar-left-12 {
+    margin-left: 12%
+}
+.mar-l-18{
+    margin-left:18px
+}
+.typeSelect {
+    width: 160px;
+}
+
+.pageItem {
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    float: right;
+}
+
+.buttonsDesign {
+    width: 82px;
+    text-align: center;
+    margin-top: 1%
+}
+
+.dataColor {
+    color: #047af7
+}
+
+/*当表格无数据时的展示：*/
+.tableHasNoData {
+    padding: 6px;
+    text-align: center;
+    border: 1px solid #d0d0d0;
+}
+.formTableHasNoData {
+    text-align: center;
+    border: 1px solid #d0d0d0;
+}
+.equ_addForm .textarea_design {
+    display: block
+}
+
+.btnGroupDesign2 button {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.btnGroupDesign2 {
+    margin-left: 80px;
+}
+
+.tdPadding {
+    padding: 0 10px;
+}
+
+.wid-5 {
+    width: 5%
+}
+
+.wid-80 {
+    width: 80%
+}
+
+.wid-90 {
+    width: 90%
+}
+.wid-98 {
+    width: 98%
+}
+
+.wid-86 {
+    width: 86%;
+}
+
+.wid-50 {
+    width: 50px
+}
+
+.wid-70p {
+    width: 70px;
+}
+
+.wid-10 {
+    width: 10%
+}
+
+.wid-7-per {
+    width: 10%
+}
+
+.wid-20-per {
+    width: 20%;
+}
+
+.mar-top-1 {
+    margin-top: 1%
+}
+
+.mar-top-3 {
+    margin-top: 3%
+}
+
+.table-standWork .num_right .ivu-input {
+    text-align: right
+}
+
+.table-standWork .num_right {
+    text-align: right !important;
+}
+
+.numberRight .ivu-input-number-input {
+    text-align: right;
+}
+.numberRight .ivu-input-number-input :hover{
+    text-align: center
+}
+.numberRight .ivu-input{
+    text-align:right;
+}
+.centerInput .ivu-input{
+    text-align:center;
+}
+.selectLeft .ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 8px;
+    text-align: left;
+}
+
+/*手形：*/
+.pointDis {
+    cursor: pointer;
+}
+
+/*各种图表类分块展示：*/
+.chartDis {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto
+}
+
+/*图片上传*/
+.imgDiv {
+    position: relative
+}
+
+.uploadImg {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    /*position: absolute;*/
+    float: left;
+    left: 15px;
+    top: 15px;
+}
+
+.imgLable {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.theImg {
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.imgOption {
+    position: absolute;
+    left: 230px;
+    top: 165px;
+    width: 50px;
+}
+
+.personScro {
+    height: 285px;
+    overflow: auto
+}
+
+.personScro p {
+    font-size: 14px;
+    color: #1c2438;
+    font-weight: 600
+}
+
+.meetingManage_form {
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+/*故障描述*/
+.troubleDis {
+    height: 80px;
+    overflow: auto
+}
+
+.pad-t-30 {
+    padding-top: 30px
+}
+
+.font-20 {
+    font-size: 20px
+}
+
+.trobleForm .block {
+    display: block
+}
+
+.scrollTable table tbody {
+    display: block;
+    max-height: 130px;
+    overflow-y: scroll;
+}
+
+.scrollTable table thead tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.scrollTable table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.scrollTable  table thead {
+    width: calc( 100% - 1em )
+}
+
+
+
+/*轮播图片样式*/
+.bzzy-change .btn-group {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.bzzy-change .btn-group button {
+    margin: 0px 10px;
+}
+
+.demo-spin-icon-load {
+    animation: ani-demo-spin 1s linear infinite;
+}
+
+@keyframes ani-demo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.demo-spin-col {
+    height: 100px;
+    position: relative;
+    border: 1px solid #eee;
+}
+
+/*上传图片*/
+.demo-upload-list {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    margin-right: 4px;
+}
+
+.demo-upload-list img {
+    width: 100%;
+    height: 100%;
+}
+
+.demo-upload-list-cover {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+.demo-upload-list:hover .demo-upload-list-cover {
+    display: block;
+}
+
+.demo-upload-list-cover i {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+.pro {
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 1;
+    font-family: SimSun;
+    font-size: 14px;
+    color: #ed3f14;
+    /*width: 20px;*/
+    position: absolute;
+    left: 5px;
+    top: 28px;
+}
+
+
+/*table 公共样式*/
+.bzzy-search .table-content div.ivu-table-header th {
+    background-color: #0391da;
+    color: #ffffff;
+}
+.table-content {
+    margin-bottom: 15px;
+}
+
+.ivu-table th {
+    height: 36px;
+}
+
+.ivu-table td {
+    height: 32px;
+}
+/*保养工单执行流程 进度条样式*/
+.secondSteps{
+    width: 95%;
+    margin: auto;
+}
+.secondSteps .secondStepsUl{
+    width: 100%;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.secondSteps .secondStepsUl .secondStepsLi{
+    list-style: none;
+    text-align: center;
+    flex-grow: 1; /* default 0 */
+    padding: 8px 0;
+    border: 1px solid #dddddd;
+    position: relative;
+    background-color: #eee;
+    margin: 0 3px;
+}
+.secondSteps .secondStepsUl .secondStepsLi:hover{
+    color: #fff;
+    background-color: #19be6b;
+}
+.secondSteps .secondStepsUl .secondStepsLi:hover::after{
+    color: #19be6b;
+}
+.secondSteps .secondStepsUl .secondStepsLi:active{
+    color: #fff;
+    background-color: #19be6b;
+}
+.secondSteps .secondStepsUl .secondStepsLi:active::after{
+    color: #19be6b;
+}
+.secondSteps .secondStepsUl .secondStepsLi::after{
+    content:"\f488";
+    font-family: Ionicons;
+    position: absolute;
+    right: -29px;
+    top: 19px;
+    font-size: 60px;
+    color: #eee;
+    line-height: 0px;
+    z-index: 2;
+}
+.secondSteps .secondStepsUl .secondStepsLi:first-child::before{
+    content:"";
+}
+.secondSteps .secondStepsUl .secondStepsLi::before{
+    content:"\f488";
+    font-family: Ionicons;
+    position: absolute;
+    left: -1px;
+    top: 19px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 0px;
+    z-index: 1;
+}
+.secondSteps .secondStepsUl .secondStepsLi.active::after{
+    color: #19be6b;
+}
+.secondSteps .secondStepsUl .secondStepsLi.active{
+    background-color: #19be6b;
+    color: #FFFFFF;
+}
