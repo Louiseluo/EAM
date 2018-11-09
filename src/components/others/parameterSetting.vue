@@ -6,7 +6,8 @@
                 <div class="parameter-setting-slider-box slider-box">
                     <Slider v-model="autoValue" :step="10" :max="3600" show-input show-stops></Slider>
                     <div class="mar-t-10" style="margin-top: 10px;">
-                        <Button type="primary" icon="plus-round" size="small" @click="saveAutoValue()">保存</Button>
+                        <Button type="primary" disabled icon="plus-round" size="small" @click="saveAutoValue()">保存</Button>
+                        <Button type="public" disabled icon="plus-round" size="small" @click="saveAutoValue()">保存</Button>
                     </div>
                 </div>
             </Tab-pane>
@@ -290,7 +291,7 @@
         margin-bottom: 25px;
         font-size: 16px;
         font-family: SimSun;
-        color: #000000;
+        color: #FFFFFF;
         font-weight: bold;
         margin-left: 10px;
         display: block;

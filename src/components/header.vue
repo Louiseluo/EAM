@@ -191,7 +191,7 @@
 <style lang="less">
     header {
         height: 60px;
-        background-image: url("../common/img/headerbg.png");
+        background-image: linear-gradient(to right bottom,rgb(66,85,91),rgb(17,172,168));
         background-size: cover;
         background-repeat: no-repeat;
         .logo {

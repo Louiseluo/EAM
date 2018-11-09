@@ -6,16 +6,17 @@
         </div>
         <!--表单-->
         <div class="second-title">选择基础数据</div>
-        <Form :model="batchForm" label-position="left" inline :label-width="100">
-
-            <Form-item label="基础数据类型">
-                <Select v-model="batchForm.comeFrom" :value="batchForm.comeFrom" style="width: 160px;"
-                        @on-change="changeImportType">
-                    <Option v-for="item in newComeFromItem" :value="item.code" :key="item.code">{{ item.typeName }}
-                    </Option>
-                </Select>
-            </Form-item>
-        </Form>
+        <div class="form-content mar-t-10">
+            <Form :model="batchForm" label-position="left" inline :label-width="100">
+                <Form-item label="基础数据类型">
+                    <Select v-model="batchForm.comeFrom" :value="batchForm.comeFrom" style="width: 160px;"
+                            @on-change="changeImportType">
+                        <Option v-for="item in newComeFromItem" :value="item.code" :key="item.code">{{ item.typeName }}
+                        </Option>
+                    </Select>
+                </Form-item>
+            </Form>
+        </div>
 
         <div v-if="batchForm.comeFrom==3">
             <Form :model="sparePartForm" label-position="left" inline :label-width="100">
@@ -180,7 +181,51 @@
                         align: 'center'
                     }
                 ],
-                dataUpLoad: [],
+                dataUpLoad: [
+                    {
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },{
+                        name:'12撒大声地',
+                        format:'TXT',
+                        size:'12M',
+                        address:'/side/de',
+                        time:'2018-11-15',
+                    },
+                ],
                 columns1: [
                     {
                         title: '唯一标识',

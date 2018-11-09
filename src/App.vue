@@ -8,9 +8,12 @@
             <!--布局-->
             <div v-show="needLogin == false">
                 <!--左边菜单栏-->
+                <!--<div style="height: calc(100vh - 60px); overflow: auto;" class="layout">-->
                 <div style="height: calc(100vh - 60px); overflow: auto;" class="layout">
                     <!--侧边栏-->
-                    <Layout :style="{minHeight: '100vh'}">
+                    <Layout style="min-height: calc(100vh - 60px)">
+                    <!--<Layout>-->
+                        <!--右边；路由-->
                         <Sider collapsible :collapsed-width="78" v-model="isCollapsed">
                             <Menu
                                     ref="side_menu"
@@ -76,7 +79,7 @@
                                 </template>
                             </div>
                         </Sider>
-                        <!--右边；路由-->
+                        <!--左边；页面内容-->
                         <Layout>
                             <Content
                                     :style="{
@@ -101,16 +104,16 @@
         </Layout>
 
         <!--<div v-show="needLogin == true">-->
-        <div>
+       <!-- <div>
             <v-login></v-login>
         </div>
-
+-->
     </div>
     <!--</section>-->
 </template>
 <script>
     import header from './components/header.vue';
-    import login from './Login.vue';
+    // import login from './Login.vue';
 
     export default {
         data() {
@@ -1137,7 +1140,7 @@
         },
         components: {
             'v-header': header,
-            'v-login': login,
+            // 'v-login': login,
         },
         methods: {
             /*新加*/
@@ -1263,15 +1266,16 @@
 </script>
 <style lang="less">
     .wel {
-        background: #ffffff;
+        /*background: #ffffff;*/
         height: 100%;
-        background-image: url("/static/img/welcome.png");
-        background-size: auto;
-        background-repeat: no-repeat;
-        background-position: center;
+        /*background-image: url("/static/img/welcome.png");*/
+        /*background-size: auto;*/
+        /*background-repeat: no-repeat;*/
+        /*background-position: center;*/
     }
     .ivu-layout-sider {
-        top: 48px;
+        padding-top: 48px;
+        /*top: 48px;*/
     }
     .ivu-layout-sider-trigger {
         top: 60px;
